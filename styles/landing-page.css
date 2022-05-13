@@ -1,0 +1,35 @@
+main{
+    display: flex;
+    align-items: center;
+
+    height: 100vh;
+
+}
+
+main img{
+    border-radius: 50%;
+    width: 45rem;
+    margin-left: 30%;
+    border: 1rem solid var(--ball-border);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    justify-content: center;
+    
+    width: 40rem;
+
+    font: 400 2.8rem var(--font), sans-serif;
+    color: var(--text);
+    font-size: 2rem;
+    line-height: 3.4rem;
+    margin: auto;
+    margin-right: 18%;
+}
+
+.text h1{
+    text-align: center;
+    margin: 1.4rem;
+}

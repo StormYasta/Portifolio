@@ -1,0 +1,43 @@
+:root{
+    --background: #1e1c38;
+    --ball: #8b4ddd;
+    --ball-border: #ad71fa;
+    --text: #c5c5c5;
+    --button: #c5c5c5;
+    --button-hover: #6aff71;
+    --button-bg: #8b4ddd;
+
+    --font:'Open Sans';
+
+
+    font-size: 62.5%
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+}
+
+html, body,
+#container{
+    max-height: 100vh;
+    max-width: 100vw;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+footer{
+    height: 10rem;
+}

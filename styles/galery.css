@@ -1,0 +1,27 @@
+#container .galery{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#container .galery h1{
+    font: 600 5rem var(--font), sans-serif;
+    color: var(--text);
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+#container .galery .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+}
+
+#container .galery .grid img{
+    size: 100%;
+    margin: .5rem;
+    transition: .3s;
+
+    border-radius: .8rem;
+
+}
