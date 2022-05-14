@@ -7,9 +7,10 @@ main{
 
 }
 
-/* container{
-    margin: auto;
-} */
+.bgm{
+    display: none;
+    transition: .5s;
+}
 
 main img{
     border-radius: 50%;
@@ -56,6 +57,16 @@ main img{
 
     .text{
         margin: auto 3rem;
+    }
+
+    .bgm{
+        display: block;
+        position: fixed;
+        z-index: -1;
+        height: auto;
+        width: 100vw;
+
+        opacity: 70%;
     }
 
     
