@@ -1,4 +1,9 @@
-main{
+.bgm{
+    display: none;
+    transition: .5s;
+}
+
+main .profile{
     display: flex;
     align-items: center;
     margin: auto;
@@ -7,15 +12,10 @@ main{
 
 }
 
-.bgm{
-    display: none;
-    transition: .5s;
-}
 
-main img{
+main .profile img{
     border-radius: 50%;
     width: clamp(15rem, 45rem, 50rem);
-    /* margin-left: 30%; */
     border: 1rem solid var(--ball-border);
 }
 
@@ -40,13 +40,13 @@ main img{
 
 @media(max-width: 1024px){
 
-    main{
+    main .profile{
         display: flex;
         flex-direction: column;
         max-width: 100vw;
     }
 
-    main img{
+    main .profile img{
     width: clamp(15rem, 30rem, 50rem);
     margin: 2rem;
     }

@@ -1,0 +1,184 @@
+#container .top-bar-container .page-header{
+    background-color: var(--background-color);
+    padding: 2rem;
+}
+
+#container .top-bar-container .page-header .logo{
+    width: 24rem;
+    margin: 0 auto;
+}
+
+#container .top-bar-container .page-header .button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container .top-bar-container .page-header .button-container a{
+    font: 500 3rem var(--button-font);
+    text-decoration: none;
+    color: var(--main-color);
+    transition: 200ms;
+
+    margin: .4rem 0;
+}
+
+#container .top-bar-container .page-header .button-container a:hover{
+    color: var(--secondary-color);
+}
+
+#container .main{
+    margin: 0 4rem;
+}
+
+#container .main .intro{
+    text-align: justify;
+}
+
+#container .main .intro h1{
+    font: 600 3.8rem var(--button-font);
+    margin: 2rem;
+}
+
+#container .main .intro p{
+    font: 400 2.4rem var(--button-font);
+}
+
+#container .main .services h1{
+    font: 600 3.8rem var(--button-font);
+    margin: 2rem;
+    text-align: center;
+}
+
+#container .main .services .services-ind{
+    text-align: center;
+    border: solid 3px var(--secondary-color);
+    border-radius: 3rem;
+    margin: 1rem 0;
+    padding: 2rem;
+    background-color: var(--background-color-secondary);
+    transition: 200ms;
+}
+
+#container .main .services .services-ind img{
+    width: 15rem;
+    margin: auto;
+}
+
+#container .main .services .services-ind .services-ind-off .icon-on{
+    display: none;
+}
+
+#container .main .services .services-ind:hover .icon-on{
+    display: block;
+    transform: translateY(-1rem);
+}
+
+#container .main .services .services-ind:hover .icon-off{
+    display: none;
+}
+
+
+
+/* #container .main .services .services-ind .services-ind-on{
+    display: none;
+}
+
+#container .main .services .services-ind:checked .services-ind-off{
+    display: none;
+}
+
+
+#container .main .services .services-ind:onclick .services-ind-on{
+    display: block;
+} */
+
+#container .main .services .services-ind h2{
+    font: 600 3.2rem var(--button-font);
+    margin: 1rem;
+}
+
+#container .main .services .services-ind p{
+    font: 400 2.4rem var(--button-font);
+}
+
+#container .main .contato h1{
+    font: 600 3.8rem var(--button-font);
+    margin: 2rem;
+}
+
+#container .main .contato .LI-profile-badge{
+    margin: auto;
+}
+
+#container .main .contato .map{
+    border-radius: .8rem;
+    border: solid 2px var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+#container .main .contato .contatos p{
+    text-align: center;
+    font: 400 2.2rem var(--button-font);
+    margin: 1.4rem;
+}
+
+.off{
+    display: none;
+}
+
+@media (min-width: 700px){
+    #container .top-bar-container .page-header{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #container .top-bar-container .page-header .logo{
+        margin: initial;
+        width: 16rem;
+    }
+
+    #container .top-bar-container .page-header .button-container{
+        flex-direction: row;
+    }
+
+    #container .top-bar-container .page-header .button-container a{
+        margin: 0 1.4rem;
+    }
+
+    #container .main .services .service{
+        display: flex;
+        justify-content: center;
+    }
+
+    #container .main .services .service .services-ind{
+        width: 40rem;
+        margin: 0 2rem;
+    }
+
+    #container .main .contato .contact{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    #container .main .contato .contact .contatos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #container .main .contato .contact .map{
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .off{
+        display: block;
+    }
+
+    .on{
+        display: none;
+    }
+}
