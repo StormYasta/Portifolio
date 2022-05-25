@@ -36,6 +36,10 @@ html, body,
 
 }
 
+a{
+    text-decoration: none;
+}
+
 footer{
     margin: auto;
     display: flex;
