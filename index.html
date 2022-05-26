@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/galery.css">
     <link rel="stylesheet" href="styles/background.css">
     <link rel="stylesheet" href="styles/modal.css">
+
+    <link rel="text/javascript" href="scripts/modal.js">
     
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     
@@ -19,18 +21,21 @@
     
     <title>João Vitor Cirelli</title>
 </head>
+
+
 <body>
 
-    <div class="modal on">
+    <div id="modal" class="modal" onclick="closeM()">
         <div class="modal_content">
-            <h1 id="titulo">Titulo</h1>
+            <h1 id="titulo"></h1>
             <div class="modal_intern">
                 <div>
-                    <img src="source/images/miska_ex.png" alt="">
+                    <img id="imagem" src="" alt="">
                 </div>
                 <div class="content">
-                    <p id="resumo">Mussum Ipsum, cacilds vidis litro abertis. Pra lá , depois divoltis porris, paradis. Copo furadis é disculpa de bebadis, arcu quam euismod magna. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.</p>
-                    <button class="button"><a  href="">Conheça</a></button>
+                    <p id="resumo"></p>
+                    <a id="btn" href=""class="button">Conheça</a>
+                    
                 </div>
             </div>
             
@@ -60,8 +65,9 @@
             <div class="galery">
                 <h1>Projetos</h1>
                <section class="grid">
-                <div><a href="pages/miska/index.html"><img src="source/images/miska_diplay.png" alt=""></a></div>
-                <div><a href="https://miska-port.herokuapp.com/"><img src="source/images/proffy.png" alt=""></a></div>
+                   
+                <div><button onclick="modal1()"><img src="source/images/miska_display.png" alt=""></button></div>
+                <div><button onclick="modal2()"><img src="source/images/proffy.png" alt=""></button></div>
                 <div><a href="pages/maintence.html"><img src="source/images/04776d3f678169dd7d63968f518c0b42.png" alt=""></a></div>
                 <div><a href="pages/maintence.html"><img src="source/images/04776d3f678169dd7d63968f518c0b42.png" alt=""></a></div>
                 <div><a href="pages/maintence.html"><img src="source/images/04776d3f678169dd7d63968f518c0b42.png" alt=""></a></div>
@@ -73,4 +79,5 @@
             <footer><div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="joaocirelli" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/joaocirelli?trk=profile-badge"></a></div></footer>
     </div>
 </body>
+<script src="scripts/modal.js"></script>
 </html>
