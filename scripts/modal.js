@@ -7,7 +7,7 @@ var modal_1 = {
 
 var modal_2 = {
     nome: "Proffy",
-    resumo:  'Aplicação criada durante a NLW #2, um evento oferecido pela Rocketseat e mestrado por Maiyk Brito e Diego Fernandes. Essa aplicação utiliza de HTML, CSS, JavaScript e NodeJS, para criar uma plataforma de cadastro de professores, com busca por: Dia, Horário e Materia',
+    resumo:  'Aplicação criada durante a NLW #2, um evento oferecido pela Rocketseat e mestrado por Maiyk Brito e Diego Fernandes. Essa aplicação utiliza de HTML, CSS, JavaScript e NodeJS, para criar uma plataforma de cadastro e busca de professores, com filtro de: Dia, Horário e Materia.',
     btn: "https://miska-port.herokuapp.com",
     imagem: "source/images/proffy.png",
 }
