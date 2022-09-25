@@ -1,7 +1,12 @@
 #container .galery{
-    margin: auto;
     display: flex;
     flex-direction: column;
+    background-color: var(--background);
+    border-radius: 1rem;
+    width: 90%;
+    height: auto;
+    padding: 3rem;
+    margin: auto;
 }
 
 #container .galery h1{
@@ -22,7 +27,14 @@
     width: 40.1rem;
 
     border-radius: .8rem;
+    border: .4rem solid var(--border);
 
+    filter: grayscale(); 
+    transition: filter .4s ease-in-out;
+}
+
+#container .galery .grid img:hover{
+    filter: none;
 }
 
 @media(max-width: 1024px){

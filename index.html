@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/landing-page.css">
     <link rel="stylesheet" href="styles/galery.css">
-    <link rel="stylesheet" href="styles/background.css">
     <link rel="stylesheet" href="styles/modal.css">
 
     <link rel="text/javascript" href="scripts/modal.js">
@@ -26,7 +25,7 @@
 <body>
 
     <div id="modal" class="modal" onclick="closeM()">
-        <div class="modal_content">
+        <div class="modal_content" onclick="">
             <h1 id="titulo"></h1>
             <div class="modal_intern">
                 <div>
@@ -42,23 +41,23 @@
         </div>
     </div>
     <div id="container">
-        <div id="bg">
-            <div class="ball left"></div>
-            <div class="ball right"></div>
-        </div>
-
+        <div class="bg"><span></span></div>
         
 
-        <div class="bgm"><img src="source/images/cover-image.png" alt=""></div>
+        <div class="bgm"><img src="source/images/cover-mobile.png" alt=""></div>
                
             <main>
                 <div class="profile">
-                    <div>
-                        <img src="source/images/profile-pic (3).png" alt="foto perfil">
+                    <div class="profile-picture">
+                        <img class="picture" src="source/images/profile-pic3.png" alt="foto perfil">
+                        <div class="btn">
+                            <button><a href="https://www.linkedin.com/in/joaocirelli/"><img src="./source/images/linkedin (1).png" alt="">LinkedIn</a></button>
+                            <button><a href="https://github.com/StormYasta"><img src="./source/images/github.png" alt="">GitHub</a></button>
+                        </div>
                     </div>
                     <div class="text">
-                        <H1>Sobre mim</H1>
-                        <p> Olá, me chamo João, tenho 22 anos e estudo programação (Atualmente tenho conhecimentos HTML e CSS, e estou me aperfeiçoando em JavaScript). Futuramente pretendo trabalhar com Segurança da Informaçao e Machine Learning. Até o momento não participei de nenhum projeto interessante, mas tenho muita vontade de aprender e me desenvolver profissionalmente</p>
+                        <H1>Bem vindo!</H1>
+                        <p> Olá, me chamo João, tenho 22 anos e sou um estudante atual de front-end, com conhecimento em HTML, CSS e Java script, aprendendo por conta própria através de cursos online e vídeos. Meu foco futuramente é aprender e me aprimorar na área de back-end, possuindo um grande interesse no conteúdo de machine learning e segurança da informação. Me considero uma pessoa de muita resiliência e criatividade, sempre buscando por aprendizados que possam contribuir com o meu desenvolvimento pessoal e profissional. Minha ambição, também para o futuro, é estudar dentro do ramo de tecnologia no exterior. Me dou muito bem com trabalho em equipe, tenho uma boa comunicação e sou receptivo com opiniões construtivas e que possam me ajudar como um todo. Sou pró-ativo, com disposição para ajudar em outras áreas caso necessário, podendo assim sair da minha zona de conforto e enfrentar novos desafios.</p>
                     </div>
                 </div>
             
@@ -74,9 +73,8 @@
                 <div><a href="pages/maintence.html"><img src="source/images/04776d3f678169dd7d63968f518c0b42.png" alt=""></a></div>
                 </section>
             </div>
-        </main>
-
-            <footer><div class="badge-base LI-profile-badge" data-locale="pt_BR" data-size="medium" data-theme="dark" data-type="VERTICAL" data-vanity="joaocirelli" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://br.linkedin.com/in/joaocirelli?trk=profile-badge"></a></div></footer>
+            <footer><span></span></footer>
+            </main>
     </div>
 </body>
 <script src="scripts/modal.js"></script>

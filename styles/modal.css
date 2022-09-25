@@ -1,9 +1,9 @@
 .modal{
     display: none;
     position: fixed;
-    z-index: 5;
-    background: rgb(0,0,0);
-    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,0,130,0.7847514005602241) 35%, rgba(55,0,106,0.3617822128851541) 100%);
+    z-index: 3;
+    background: rgb(45,132,138);
+    background: linear-gradient(0deg, rgba(45,132,138,0.8813900560224089) 0%, rgba(53,135,164,0.458420868347339) 50%, rgba(97,231,134,0.19511554621848737) 100%);
     width: 100vw;
     height: 100vh;
 }
@@ -26,7 +26,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 90%;
+    height: 85%;
 }
 
 .modal_intern .test{
@@ -38,12 +38,14 @@
 .modal_content h1{
     font: 400 4rem var(--font), sans-serif;
     text-align: center;
+    padding-top: 2rem;
 }
 
 .modal_intern p{
     width: 90%;
     margin: auto;
     font: 400 2rem var(--font), sans-serif;
+    text-align: justify;
 
 }
 
