@@ -1,7 +1,3 @@
-.bgm{
-    display: none;
-}
-
 .bg{
     background-image: url("../source/images/cover-image.png");
     background-repeat: no-repeat;
@@ -19,6 +15,7 @@ main .profile{
     margin: auto;
     padding: 10rem 0 4rem;
     width: 75%;
+    max-width: 1440px;
     align-items: center;
 }
 
@@ -33,7 +30,7 @@ main .profile .profile-picture{
 
 main .profile .picture{
     border-radius: 50%;
-    width: 32rem;
+    width: 100%;
     border: 1rem solid var(--border);
     box-shadow:0px 1px 3px #0000002d;
 
@@ -42,6 +39,7 @@ main .profile .picture{
 main .profile .profile-picture .btn{
     display: flex;
     width: 100%;
+    margin:1rem;
 }
 
 main .profile .profile-picture .btn button{
@@ -105,20 +103,20 @@ main .profile .profile-picture .btn img{
         display: flex;
         flex-direction: column;
         max-width: 100vw;
+        padding: 3rem 0;
+        width: 90%;
+        gap: 1rem;
     }
 
-    main .profile img{
-    width: clamp(15rem, 30rem, 50rem);
-    margin: 2rem;
+    main .profile .profile-picture .picture{
+        width: 90%;
     }
-
-    #bg{
-        display: none;
-    }
-
     .text{
-        margin: auto 3rem;
+        padding: 2rem;
     }
+    
+    
+
 
     .bgm{
         display: block;

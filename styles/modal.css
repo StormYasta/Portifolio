@@ -18,7 +18,6 @@
     background-color: aliceblue;
     margin: 10rem auto;
     border-radius: 1rem;
-    /* display: flex; */
 }
 
 .modal_intern{
@@ -71,4 +70,32 @@
     width: 50rem;
     border-radius: 1rem;
     margin: auto;
+}
+
+@media(max-width: 1024px){
+    .modal_content{
+        width: 90%;
+        height: auto;
+        margin: 2rem auto;
+    }
+
+    .modal_intern{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 1rem;
+        width: 100%;
+    }
+
+
+    .modal_intern img{
+        width: 100%;
+        margin: auto;
+    }
+
+    .modal_intern p{
+        font-size: 1.6rem;
+    }
 }

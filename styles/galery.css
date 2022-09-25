@@ -4,6 +4,7 @@
     background-color: var(--background);
     border-radius: 1rem;
     width: 90%;
+    max-width: 1440px;
     height: auto;
     padding: 3rem;
     margin: auto;
@@ -24,7 +25,7 @@
 
 #container .galery .grid img{
     margin: .5rem;
-    width: 40.1rem;
+    width: 40rem;
 
     border-radius: .8rem;
     border: .4rem solid var(--border);
@@ -44,11 +45,19 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+        width: 100%;
+        margin: auto;
     }
 
     #container .galery{
         display: flex;
         margin: auto;
+    }
+
+    #container .galery .grid img{
+        width: 100%;
+        filter: none;
+        transition: none;
+
     }
 }
