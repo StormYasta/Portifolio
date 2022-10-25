@@ -12,6 +12,13 @@ var modal_2 = {
     imagem: "source/images/proffy.png",
 }
 
+var modal_3 = {
+    nome: "EcoThermo",
+    resumo:  'Site de contato criado para uma empresa de manutenção em sistemas de refrigeração comercial',
+    btn: "https://stormyasta.github.io/ecothermo_site/",
+    imagem: "source/images/ecothermo.png",
+}
+
 var element = document.getElementById("modal")
 
 function modal1(){
@@ -30,6 +37,15 @@ function modal2(){
     document.getElementById("imagem").src = modal_2.imagem
     document.getElementById("resumo").innerText = modal_2.resumo
     document.getElementById("btn").href = modal_2.btn
+}
+
+function modal2(){
+    element.classList.add("on");
+
+    document.getElementById("titulo").innerText = modal_3.nome
+    document.getElementById("imagem").src = modal_3.imagem
+    document.getElementById("resumo").innerText = modal_3.resumo
+    document.getElementById("btn").href = modal_3.btn
 }
 
 function closeM(){
