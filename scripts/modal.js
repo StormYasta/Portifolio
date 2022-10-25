@@ -14,7 +14,7 @@ var modal_2 = {
 
 var modal_3 = {
     nome: "EcoThermo",
-    resumo:  'Site de contato criado para uma empresa de manutenção em sistemas de refrigeração comercial',
+    resumo:  'Site de contato criado para uma empresa de manutenção em sistemas de refrigeração comercial.',
     btn: "https://stormyasta.github.io/ecothermo_site/",
     imagem: "source/images/ecothermo.png",
 }
@@ -39,7 +39,7 @@ function modal2(){
     document.getElementById("btn").href = modal_2.btn
 }
 
-function modal2(){
+function modal3(){
     element.classList.add("on");
 
     document.getElementById("titulo").innerText = modal_3.nome
